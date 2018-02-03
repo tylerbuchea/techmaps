@@ -1,0 +1,15 @@
+{
+  "name": "techmaps",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "next": "^4.2.3",
+    "node-craigslist": "^1.2.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
