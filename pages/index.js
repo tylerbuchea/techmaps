@@ -9,7 +9,7 @@ import craigslist from 'node-craigslist';
 export default class App extends React.Component {
   static async getInitialProps({ req }) {
     const client = new craigslist.Client({
-      baseHost: 'craigslist.ca',
+      baseHost: 'craigslist.org',
       city: 'sfbay',
     });
     const options = { category: 'apa', maxAsk: '3000', minAsk: '1000' };
